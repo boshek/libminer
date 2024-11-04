@@ -35,7 +35,7 @@ devtools::install_GitHub("boshek/libminer")
 
 To get a count of installed packages in each of your library locations, use the `lib_summary()` function:
 
-```{{r example}}
+```{r example}
 library(libminer)
 lib_summary()
 ```

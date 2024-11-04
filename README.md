@@ -26,4 +26,15 @@ devtools::install_GitHub("boshek/libminer")
 To get a count of installed packages in each of your library locations,
 use the `lib_summary()` function:
 
-`{{r example}} library(libminer) lib_summary()`
+``` r
+library(libminer)
+lib_summary()
+#>                                                                                        Library
+#> 1                         /Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library
+#> 2 /private/var/folders/gf/h33wyp0d1c57rpx_cx64m8f80000gn/T/Rtmp095zng/temp_libpath49dd50efe011
+#> 3                                                 /Users/samalbers/Library/R/arm64/4.4/library
+#>   n_packages
+#> 1         29
+#> 2          1
+#> 3        159
+```
