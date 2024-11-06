@@ -1,0 +1,29 @@
+---
+title: "using-libminer"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{using-libminer}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+`lib_summary` is a really great function
+```{r setup}
+library(libminer)
+
+lib_summary()
+```
+
+You can also use `lib`:
+```{r}
+lib()
+```
+
+This concludes our vignette. 
