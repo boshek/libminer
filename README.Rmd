@@ -40,3 +40,9 @@ To get a count of installed packages in each of your library locations, use the 
 library(libminer)
 lib_summary()
 ```
+
+and you can also use the `lib` function:
+
+```{r}
+lib()
+```
